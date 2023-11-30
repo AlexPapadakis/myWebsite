@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="myWebsite.css">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Holistic Approach Tutory - Guiding young minds through coding, math, and chess for a transformative learning experience.">
+        <meta name="keywords" content="coding, math, chess, education, tutoring">
+        <title>Holistic Approach Tutory</title>
+    </head>
+
+    <body class="loading">
+        
+        <div class="animation-container">
+          <div class="logo">
+            Holistic <span id="approach">Approach</span>
+          </div>
+        </div>
+       
+        <div class="website-content">
+          
+            <div class="animation-container">
+              <div class="logo">
+                Holistic <span id="approach">Approach</span>
+              </div>
+            </div>
+            
+          <div class="logo-container"></div>
+          <header>
+              <nav>
+                  <div class="nav-links">
+                      <ul>
+                          <li><a href="#about">About me</a></li>
+                          <li><a href="#services">Services</a></li>
+                          <li><a href="#contact">Contact</a></li>
+                      </ul>
+                  </div>
+              </nav>
+          </header>
+         
+      
+        
+          
+          <div class="flex-container">
+      
+              <img src="images/profile.jpg" id="profile-img">
+              <section id ="about-me-section">
+                  <h1>About me</h1>
+                  <p>
+                      Greetings! I'm Alex, a passionate educator with a background in Electrical and Computer Engineering. At just 22 years old, I've immersed myself in the world of math, technology, and chess, driven by a deep love for these subjects and a belief in their transformative power.
+      
+                      My journey began with a natural affinity for math and analytical thinking. Recognizing its vital role in technology-related careers, I pursued a Masters in Electrical and Computer Engineering to further hone my skills. Along the way, I discovered the profound impact that chess has on cognitive development, instilling qualities like focus, self-reliance, patience, and strategic thinking.
+                      
+                      Equipped with these experiences, I've embarked on a mission to share this knowledge with young minds, aged 8-14. Through engaging lessons in coding, math, and chess, I aim to cultivate well-rounded individuals, emphasizing not just technical prowess, but also important life skills.                </p>
+              </section>
+      
+          </div>      
+      
+          <section>
+              <h1>Teaching methodology</h1>
+              <p>
+                  In my teaching, I hold certain key principles close to heart. First and foremost, I believe in personalized learning experiences. By tailoring examples and approaches to individual students, I ensure that each lesson resonates with them on a personal level.
+      
+                  Respect and open communication are cornerstones of my classroom. I value the opinions of my students and encourage them to ask questions and voice their thoughts. This fosters a dynamic learning environment where everyone feels heard and valued.
+                  
+                  While I'm dedicated to ensuring that learning is enjoyable and engaging, I also recognize the importance of discipline and focus. We set aside time for educational games and activities to keep things lively, but we never lose sight of our core learning objectives.                </p>
+          </section>
+      
+          <section>
+              <h1>What will I learn?</h1>
+              <p>
+                  I offer comprehensive courses in coding, math, and chess, tailored to the specific needs and interests of students aged 8-14. My curriculum is designed to take learners from foundational concepts to advanced proficiency, ensuring a well-rounded understanding of each subject.    
+              </p>
+          </section>
+          
+          
+<!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
+
+<div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget' style='display: inline-block;'>
+  <a itemprop='url' href=https://www.fiverr.com/alexander_pap rel="nofollow" target="_blank" style='display: inline-block;'>
+     <div class='fiverr-seller-content' id='fiverr-seller-widget-content-64a52f0e-512e-4f4d-b657-cc492981ff72' itemprop='contentURL' style='display: none;'></div>
+     <div id='fiverr-widget-seller-data' style='display: none;'>
+         <div itemprop='name' >alexander_pap</div>
+         <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
+         <div itemprop='jobtitle'>Seller</div>
+         <div itemprop='description'>Greetings! I'm Alex, your dedicated teacher. With a background in Electrical and Computer Engineering and a passion for nurturing technical proficiency and life skills, I offer a unique learning experience.
+
+At 22, I'm excited to guide you or your child through the fascinating interplay of coding, math, and chess. Together, we'll embark on a dynamic learning journey that goes beyond the textbooks.
+
+My goal is to spark creativity, sharpen logical reasoning, and foster strategic thinking. Join me in creating a foundation not just for academic success but for a lifetime of meaningful skills. Let'</div>
+     </div>
+ </a>
+</div>
+
+<script id='fiverr-seller-widget-script-64a52f0e-512e-4f4d-b657-cc492981ff72' src='https://widgets.fiverr.com/api/v1/seller/alexander_pap?widget_id=64a52f0e-512e-4f4d-b657-cc492981ff72' data-config='{"category_name":"\n                                    Programming \u0026 Tech\n\n                            "}' async='true' defer='true'></script>
+
+ 
+
+    <section id="enroll">
+        <h1>Contact me!</h1>
+        <!-- Enrollment Form (Replace with your actual form implementation) -->
+        <form>
+            <label for="Name" >Name:</label>
+            <input type="text" id="studentName" name="studentName" placeholder="Your name"" required>
+            <label for="parentEmail" >Parent Email:</label>
+            <input type="email" id="parentEmail" name="parentEmail" placeholder="Your email" required>
+            <label type="text" required>Details</label>
+            <textarea rows="10" type="text" id="details" placeholder="Ask me anything!" required ></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <section id="contact">
+            <!-- Your contact information and social media links -->
+        </section>
+    </footer>
+      
+    <script>
+        // Intersection Observer to trigger animation on scroll for service items
+        const serviceItems = document.querySelectorAll('.services-container li');
+      
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('reveal-animation');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.5 });
+      
+        serviceItems.forEach(item => {
+          observer.observe(item);
+        });
+      </script>
+  </div>
+
+  <script>
+    // Remove the "loading" class after the animation completes
+    document.addEventListener('DOMContentLoaded', function () {
+      setTimeout(function () {
+        document.body.classList.remove('loading');
+      }, 3500); // Adjust the duration based on your animation timings
+    });
+  </script>
+      </body>
+      </html>
+      
