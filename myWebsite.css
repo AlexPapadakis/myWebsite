@@ -26,7 +26,7 @@ White (#FFFFFF), sunset orange (#FF5841), red-violet (#C53678)
 
 .logo {
     font-family: 'Arial', sans-serif;
-    font-size: 140px;
+    font-size: 100px;
     color: #333;
     opacity: 0;
     animation: fadeInAndScale 2s , fadeOut 2s forwards 2s;
